@@ -1,0 +1,102 @@
+body, html {
+  color: rgb(38, 39, 45);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../img/iphone.png') 50% 100% no-repeat,
+              url('../img/header.png') no-repeat;
+  background-size: auto, cover;
+  height: 1000px;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 16px;
+}
+.menu {
+  display: flex;
+  width: 1200px;
+  height: 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-link,
+.menu-link-getapp,
+.menu-link-help,
+.menu-link-sandwich {
+  text-decoration: none;
+  color: rgb(38, 39, 45);
+  padding: 10px 15px;
+}
+.menu-link-getapp {
+  border-radius: 30px;
+  background-color: #267df4;
+  color: #fff;
+  font-weight: lighter;
+  padding-left: 45px;
+  background-image: url('../img/apple.png');
+  background-repeat: no-repeat;
+  background-position: 15px 7px;
+  margin-left: 15px;
+}
+.menu-link-sandwich {
+  width: 10px;
+  background-image: url('../img/sandwich.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo {
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+}
+.logo span {
+  font-weight: bold;
+}
+.menu-left,
+.logo,
+.menu-right {
+  flex: 1 0;
+}
+.menu-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu-link-help {
+  color: #8c8f94;
+}
+
+.jumb {
+  text-align: center;
+  padding: 0 20px;
+}
+.jumb-header {
+  margin-top: 60px;
+  font-size: 62px;
+  font-family: 'Varela Round', arial;
+}
+.jumb p {
+  font-size: 20px;
+  color: #8c8f94;
+  margin-bottom: 60px;
+}
+.jumb a {
+  text-decoration: none;
+  color: rgb(38, 39, 45);
+  border: 1px solid #d9dcde;
+  border-radius: 30px;
+  line-height: 40px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.jumb a span {
+  padding-right: 10px;
+  font-size: 12px;
+}

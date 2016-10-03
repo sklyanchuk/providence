@@ -2,7 +2,6 @@ body, html {
   color: rgb(38, 39, 45);
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: "LatoRegular", sans-serif;
   font-size: 16px;
 }
@@ -82,7 +81,8 @@ header {
 }
 .jumb {
   text-align: center;
-  padding: 0 20px;
+  padding: 0 30px;
+  width: 800px;
 }
 .jumb-header {
   margin-top: 60px;
@@ -130,7 +130,6 @@ footer .block-headers {
   line-height: 45px;
   text-align: left;
 }
-
 .subscribe-form input {
   line-height: 45px;
   margin-left: 30px;
@@ -138,11 +137,6 @@ footer .block-headers {
   width: 360px;
   font-size: 16px;
 }
-.subscribe-form input.email:focus {
-  border: none;
-  box-shadow: none;
-}
-
 .subscribe-form a {
   position: absolute;
   top: 2px;

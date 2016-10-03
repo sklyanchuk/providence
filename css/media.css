@@ -1,0 +1,14 @@
+@media (max-width: 1250px) {
+  .menu {
+    width: 1000px;
+  }
+  header,
+  footer,
+  section {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
